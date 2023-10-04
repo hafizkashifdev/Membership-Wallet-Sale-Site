@@ -88,7 +88,7 @@ const navigationHandler=(path)=>{
       letterSpacing: "-0.72px",
     }}
   >
-    Sign In for an account
+    Sign In to your account
   </Typography>
 </Box>
 
