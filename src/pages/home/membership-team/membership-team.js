@@ -22,8 +22,8 @@ const MembershipTeam = () => {
       
       <Grid item xs={10}>
         <Typography
+          className='text-font'
           sx={{
-            fontFamily: 'Open Sans',
             fontSize: '48px',
             fontStyle: 'normal',
             fontWeight: 700,
@@ -53,9 +53,10 @@ const MembershipTeam = () => {
       <Grid item xs={6}>
 
         <Typography
+          className='text-font'
           sx={{
             color: 'var(--secondary-secondary-600, #58506C)',
-            fontFamily: 'Open Sans',
+           
             fontSize: '18px',
             fontStyle: 'normal',
             fontWeight: 400,
@@ -73,6 +74,7 @@ Join us today and embark on a journey filled with possibilities. Together, we'll
   variant="contained"
   color="primary"
   endIcon={<img src={btnright} alt="btnright" />}
+  className='text-font'
   sx={{
     borderRadius: '8px',
     border: '1px solid var(--gray-scale-gray-300, #D0D5DD)',
@@ -103,8 +105,8 @@ Join us today and embark on a journey filled with possibilities. Together, we'll
       
       <Grid item xs={12}>
         <Typography
+          className='text-font'
           sx={{
-            fontFamily: 'Open Sans',
             fontSize: '48px',
             fontStyle: 'normal',
             fontWeight: 700,
@@ -132,9 +134,9 @@ Join us today and embark on a journey filled with possibilities. Together, we'll
       <Grid item xs={12}>
 
         <Typography
+          className='text-font'
           sx={{
             color: 'var(--secondary-secondary-600, #58506C)',
-            fontFamily: 'Open Sans',
             fontSize: '18px',
             fontStyle: 'normal',
             fontWeight: 400,
@@ -152,6 +154,7 @@ Join us today and embark on a journey filled with possibilities. Together, we'll
   variant="contained"
   color="primary"
   endIcon={<img src={btnright} alt="btnright" />}
+  className='text-font'
   sx={{
     borderRadius: '8px',
     border: '1px solid var(--gray-scale-gray-300, #D0D5DD)',

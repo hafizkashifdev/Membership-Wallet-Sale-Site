@@ -59,7 +59,7 @@ className='text-font'
 className='text-font'
  sx={{
     color: 'var(--grayscale-gray-500, #667085)',
-    fontFamily: 'Outfit,Outfit',
+  
     fontSize: '18px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -76,7 +76,7 @@ Experience our mobile application firsthand by downloading it from the App Store
 className='text-font'
  sx={{
     color: 'var(--grayscale-gray-500, #667085)',
-    fontFamily: 'Outfit,Outfit',
+    
     fontSize: '18px',
     fontStyle: 'normal',
     fontWeight: 400,

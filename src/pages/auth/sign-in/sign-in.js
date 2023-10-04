@@ -27,6 +27,8 @@ import lin from "../../../assets/auth/icon/in.svg";
 import yout from "../../../assets/auth/icon/yout.svg";
 import { useNavigate } from "react-router-dom";
 
+import applogo from '../../../assets/logo.svg'
+
 
 
 
@@ -44,13 +46,28 @@ const navigationHandler=(path)=>{
         {/* First Grid: Text and Form */}
         <Grid item lg={5} xs={12}>
         <Box
+        
+        onClick={()=>navigationHandler('/')}
   sx={{
     mt: "40px",
-    display: 'flex',
+    display: {sm:'flex',xs:"none"},
     justifyContent: { lg: 'left', xs: 'center' },
+    cursor:'pointer'
   }}
 >
   <img src={authlogo} alt="logo" />
+</Box>
+<Box
+        
+        onClick={()=>navigationHandler('/')}
+  sx={{
+    mt: "48px",
+    display: {sm:'none',xs:"flex"},
+    justifyContent: 'center',
+    cursor:'pointer'
+  }}
+>
+  <img src={applogo} alt="logo" />
 </Box>
 
 <Box
@@ -64,14 +81,14 @@ const navigationHandler=(path)=>{
     className="text-font"
     sx={{
       color: "#000047",
-      fontSize: "36px",
+      fontSize: {sm:"36px",xs:'26px'},
       fontStyle: "normal",
       fontWeight: 600,
       lineHeight: "60px",
       letterSpacing: "-0.72px",
     }}
   >
-    Sign up for an account
+    Sign In for an account
   </Typography>
 </Box>
 

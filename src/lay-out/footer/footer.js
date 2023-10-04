@@ -103,9 +103,7 @@ const Footer = () => {
            >Privacy Policy</Link>
             <Link 
             className="text-font link"
-            sx={{textDecoration:"none",mt:"20px",color:"#4E4B66"}}
-         // href="/" 
-          onClick={() => handleNavigation('/cockie-policy')}  >Cookie Policy</Link>
+            sx={{textDecoration:"none",mt:"20px",color:"#4E4B66"}} onClick={() => handleNavigation('/cookie-policy')}  >Cookie Policy</Link>
        
        
         </Grid>
@@ -154,9 +152,12 @@ const Footer = () => {
          </Typography>
        </Grid>
        <Grid item xs={12} md={6} xl={4} sx={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-         <Typography className='text-font' sx={{ color: '#FFFFFF',fontSize: '14px', fontWeight: 400, fontStyle: 'normal', textTransform: 'capitalize', display: { xs: 'none', md: 'block' } }}>
-           <span > Cookies Policy    </span> | <span> Privacy Policy    </span> | <span>    Terms & Conditions </span>
-         </Typography>
+       <Typography className='text-font' sx={{ color: '#FFFFFF', fontSize: '14px', fontWeight: 400, fontStyle: 'normal', textTransform: 'capitalize', display: { xs: 'none', md: 'block' } }}>
+    <span onClick={() => handleNavigation('/data-policy')} style={{ cursor: 'pointer', marginRight: '10px' }}>Data Policy</span> | 
+    <span onClick={() => handleNavigation('/privacy-policy')} style={{ cursor: 'pointer', marginRight: '10px',marginLeft:'10px' }}>Privacy Policy</span> | 
+    <span onClick={() => handleNavigation('/cookie-policy')} style={{ cursor: 'pointer', marginRight: '10px' ,marginLeft:'10px'}}>Cookies Policy</span>
+</Typography>
+
        </Grid>
      </Container>
    </Grid></>

@@ -108,7 +108,6 @@ const TrendingCard = () => {
                 variant="body2"
                 sx={{
                   color: '#796EFF',
-                  fontFamily: 'Outfit',
                   fontSize: '13.295px',
                   fontStyle: 'normal',
                   fontWeight: 400,
@@ -124,7 +123,6 @@ const TrendingCard = () => {
                 variant="body2"
                 sx={{
                   color: '#475467',
-                  fontFamily: 'Outfit',
                   fontSize: '13.295px',
                   fontStyle: 'normal',
                   fontWeight: 500,
@@ -142,12 +140,12 @@ const TrendingCard = () => {
                 variant="body2"
                 sx={{
                   color: 'var(--gray-scale-gray-600, #475467)',
-                  fontFamily: 'Outfit',
                   fontSize: '19.943px',
                   fontStyle: 'normal',
                   fontWeight: 600,
                   lineHeight: '28.252px',
                 }}
+                className='text-font'
               >
                 Admission to Santus Circus, 31 August 2023 - 24 September
               </Typography>
@@ -184,13 +182,14 @@ const TrendingCard = () => {
               <Typography
                 sx={{
                   color: 'var(--gray-scale-gray-500, #667085)',
-                  fontFamily: 'Outfit',
+                 
                   fontSize: '23.267px',
                   fontStyle: 'normal',
                   fontWeight: 400,
                   lineHeight: 'normal',
                   textDecorationLine: 'line-through',
                 }}
+                className='text-font'
               >
                 £19.00
               </Typography>

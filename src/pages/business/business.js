@@ -7,11 +7,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import circlebg from "../../assets/business/bg-circle.svg";
 import arrowgif from "../../assets/business/arrowplan.gif"
-import Personalization from "../../assets/business/Personalization.gif"
-import datarich from "../../assets/business/datarich.gif"
-import phone from "../../assets/business/phone.gif"
-import map from "../../assets/business/mp.png"
-import mapbg from "../../assets/business/fmapbg.png"
+import Personalization from "../../assets/business/Personalization.gif";
+import datarich from "../../assets/business/datarich.gif";
+import phone from "../../assets/business/phone.gif";
+import map from "../../assets/business/mp.png";
+import bususer from "../../assets/business/user.png";
+import busfun from "../../assets/business/buss.png";
 import "./business.css"
 import { useNavigate } from 'react-router-dom';
 
@@ -39,25 +40,6 @@ const cardData = [
   },
 ];
 
-// const svgStyle = {
-//   width: '100%',
-//   height: '100%',
-//   fill: 'none',
-// };
-
-// const gridStyle = {
-//   border: '2px solid black',
-//   position: 'relative', 
-// };
-
-// const containerStyle = {
-//   backgroundImage: `url(${mapbg})`,
-//   backgroundRepeat: 'no-repeat',
-//   backgroundSize: 'cover', 
-//   // paddingTop: '4px', 
-//   // paddingBottom: '4px', 
-//   marginTop:"187px",
-// };
 
 const Business = () => {
 
@@ -85,7 +67,7 @@ className='text-font'
   sx={{
     color: '#8155FF',
     textAlign: 'center',
-    // fontFamily: 'Open Sans',
+    
     fontSize: '60px',
     fontStyle: 'normal',
     fontWeight: 700,
@@ -115,14 +97,21 @@ className='text-font'
 </Container>
 <Container maxWidth="xl">
       <Grid container justifyContent="center"> 
-        <Grid item sx={{ marginTop: "68px" }}>
+        <Grid item md={6} xs={12} sx={{ marginTop: "68px" }}>
           <img
-            src={businessmain}
+            src={bususer}
             alt="business"
             style={{ width: "100%", maxWidth: "100%" }} 
           />
         </Grid>
-        <Grid item sx={{display:'flex',flexDirection:"column",justifyContent:'center',mt:{lg:"190px",xs:"100px"}}}>
+        <Grid item md={6} xs={12} sx={{ marginTop: "68px" }}>
+          <img
+            src={busfun}
+            alt="business"
+            style={{ width: "100%", maxWidth: "100%" }} 
+          />
+        </Grid>
+        <Grid item xs={12} sx={{display:'flex',flexDirection:"column",justifyContent:'center',mt:{lg:"190px",xs:"100px"}}}>
 <Typography
 className='text-font'
       sx={{
@@ -206,32 +195,6 @@ sx={{
     // Ensure the image is above the overlay
   }}
 />
-{/* <div className="overlay" ></div> */}
-
-              {/* <CardMedia
-  component="img"
-  // alt={card.title}
-  src={card.image}
-  alt={card.title}
-  height="152"
-  sx={{
-    width: "152px",
-    height: "152px",
-    flexShrink: 0,
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundSize: "cover",
-    position: "relative", zIndex: 2, maxWidth: "100%", 
-    
-  }}
-
- className="overlay" 
-// <img
-
-//   style={{ }}
-// />
-/> */}
 
               <CardContent>
                 <Typography
@@ -258,7 +221,6 @@ sx={{
                   sx={{
                     color: "var(--gray-scale-gray-500, #667085)",
                     textAlign: "center",
-                    fontFamily: "Outfit",
                     fontSize: "16px",
                     fontStyle: "normal",
                     fontWeight: 400,

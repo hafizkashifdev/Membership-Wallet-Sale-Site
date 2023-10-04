@@ -36,8 +36,9 @@ const MembershipBusiness = () => {
 
       <Grid item xs={10}>
         <Typography
+
+        className='text-font'
           sx={{
-            fontFamily: 'Open Sans',
             fontSize: '48px',
             fontStyle: 'normal',
             fontWeight: 700,
@@ -59,9 +60,9 @@ const MembershipBusiness = () => {
       </Grid>
       <Grid item xl={6} xs={10}>
         <Typography
+          className='text-font'
           sx={{
             color: 'var(--secondary-secondary-600, #58506C)',
-            fontFamily: 'Open Sans',
             fontSize: '18px',
             fontStyle: 'normal',
             fontWeight: 400,
@@ -78,6 +79,7 @@ const MembershipBusiness = () => {
   variant="contained"
   color="primary"
   endIcon={<img src={btnright} alt="btnright" />}
+  className='text-font'
   sx={{
     borderRadius: '8px',
     border: '1px solid var(--gray-scale-gray-300, #D0D5DD)',
@@ -106,8 +108,8 @@ const MembershipBusiness = () => {
 
       <Grid item xs={12}>
         <Typography
+          className='text-font'
           sx={{
-            fontFamily: 'Open Sans',
             fontSize: '48px',
             fontStyle: 'normal',
             fontWeight: 700,
@@ -129,9 +131,10 @@ const MembershipBusiness = () => {
       </Grid>
       <Grid item xs={12}>
         <Typography
+          className='text-font'
           sx={{
             color: 'var(--secondary-secondary-600, #58506C)',
-            fontFamily: 'Open Sans',
+           
             fontSize: '18px',
             fontStyle: 'normal',
             fontWeight: 400,
@@ -148,6 +151,7 @@ const MembershipBusiness = () => {
   variant="contained"
   color="primary"
   endIcon={<img src={btnright} alt="btnright" />}
+  className='text-font'
   sx={{
     borderRadius: '8px',
     textAlign:"center",

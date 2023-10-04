@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import condot from "../../assets/home/dots.svg"
 import {
   Grid,
@@ -29,6 +29,12 @@ const countries = [
 
 
 const ContactUs = () => {
+
+  const [selectedValue, setSelectedValue] = useState(''); 
+
+  const handleSelectChange = (event) => {
+    setSelectedValue(event.target.value);
+  };
   
   const connectdivStyle = {
     background: 'var(--gray-scale-gray-50, #F9FAFB)',
@@ -317,51 +323,45 @@ xs={12}
                 </TextField>
               </Grid>
               <Grid item lg={6} xs={12}>
-                <InputLabel
-                className='text-font'
-                  sx={{
-                    
-                    fontSize: "16px",
-                    py: "8px",
-                  }}
-                >
-                Number of stores (optional)
-                </InputLabel>
-                <FormControl fullWidth>
-                  <Select
-                    value={" Select number of stores"}
-                    renderValue={(value) =>
-                      value !== "" ? (
-                        value
-                      ) : (
-                        <span
-                          style={{
-                            color: "black",
-                            fontSize: "16px",
-                            fontWeight: 400,
-                          }}
-                        >
-                          Select number of stores
-                        </span>
-                      )
-                    }
-                    sx={{
-                      fontSize: "16px",
-                      borderRadius: "8px",
-                      color: "#A5A7A6",
-                      height: "57px",
-                      background: "#F9FAFB",
-                      "&.Mui-focused fieldset": {
-                        border: "#8155FF",
-                      },
-                    }}
-                  >
-                    <MenuItem>Ten</MenuItem>
-                    <MenuItem>Twenty</MenuItem>
-                    <MenuItem>Thirty</MenuItem>
-                  </Select>
-                </FormControl>
-              </Grid>
+      <InputLabel className='text-font' sx={{ fontSize: '16px', py: '8px' }}>
+        Number of stores (optional)
+      </InputLabel>
+      <FormControl fullWidth>
+        <Select
+          value={selectedValue} 
+          onChange={handleSelectChange} 
+          renderValue={(value) =>
+            value !== '' ? (
+              value
+            ) : (
+              <span
+                style={{
+                  color: 'black',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                }}
+              >
+                Select number of stores
+              </span>
+            )
+          }
+          sx={{
+            fontSize: '16px',
+            borderRadius: '8px',
+            color: '#A5A7A6',
+            height: '57px',
+            background: '#F9FAFB',
+            '&.Mui-focused fieldset': {
+              border: '#8155FF',
+            },
+          }}
+        >
+          <MenuItem value="Ten">Ten</MenuItem>
+          <MenuItem value="Twenty">Twenty</MenuItem>
+          <MenuItem value="Thirty">Thirty</MenuItem>
+        </Select>
+      </FormControl>
+    </Grid>
            
               
            

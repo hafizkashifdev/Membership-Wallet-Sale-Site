@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
 className='text-font '
 sx={{
   color: '#3CA7EF',
-  fontFamily: 'Outfit',
+   
   fontSize: '48px',
   fontStyle: 'normal',
   fontWeight: 700,
@@ -33,7 +33,7 @@ Privacy Policy
 className='text-font '
 sx={{
   color: 'var(--gray-scale-gray-600, #475467)',
-  fontFamily: 'Outfit',
+   
   fontSize: '16px',
   fontStyle: 'normal',
   fontWeight: 400,
@@ -66,7 +66,7 @@ Information We Collect 
 className='text-font '
 sx={{
     color: 'var(--gray-scale-gray-600, #475467)',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -105,7 +105,7 @@ Personal Information:
 className='text-font '
 sx={{
     color: '-gray-scale-gray-500, #667085',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -144,7 +144,7 @@ Membership and Loyalty Card Data:
 className='text-font '
 sx={{
     color: '-gray-scale-gray-500, #667085',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -181,7 +181,7 @@ Usage Information:
 className='text-font '
 sx={{
     color: '-gray-scale-gray-500, #667085',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -217,7 +217,7 @@ How We Use Your Information 
 className='text-font '
 sx={{
     color: '-gray-scale-gray-500, #667085',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -254,7 +254,7 @@ Service Provision:
 className='text-font '
 sx={{
     color: '-gray-scale-gray-500, #667085',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -291,7 +291,7 @@ Legal Obligations:
 className='text-font '
 sx={{
     color: 'var(--gray-scale-gray-600, #475467)',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -327,7 +327,7 @@ Your Choices 
 className='text-font '
 sx={{
     color: 'var(--gray-scale-gray-600, #475467)',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -365,7 +365,7 @@ Security
 className='text-font '
 sx={{
     color: 'var(--gray-scale-gray-600, #475467)',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -402,7 +402,7 @@ Changes to this Privacy Policy 
 className='text-font '
 sx={{
     color: 'var(--gray-scale-gray-600, #475467)',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -438,7 +438,7 @@ Contact Us 
 className='text-font '
 sx={{
     color: 'var(--gray-scale-gray-600, #475467)',
-    fontFamily: 'Outfit',
+     
     fontSize: '16px',
     fontStyle: 'normal',
     fontWeight: 400,

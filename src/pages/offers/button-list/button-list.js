@@ -158,7 +158,7 @@ const buttons = [
             }}
           >
           
-            {/* <Button
+            <Button
           
           
           className="text-font"
@@ -183,7 +183,7 @@ const buttons = [
           }}
         >
           All
-        </Button> */}
+        </Button>
             {buttons.map((button, index) => (
               <Box
                 key={index}
@@ -251,7 +251,6 @@ const buttons = [
                       variant="subtitle1"
                       sx={{
                         color: '#35ACFE',
-                        fontFamily: 'Outfit',
                         fontSize: '18px',
                         fontStyle: 'normal',
                         fontWeight: 600,

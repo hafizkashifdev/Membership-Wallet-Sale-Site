@@ -134,9 +134,9 @@ const PopularCards  = () => {
             <CardContent>
               <Typography
                 variant="body2"
+               
                 sx={{
                   color: '#796EFF',
-                  fontFamily: 'Outfit',
                   fontSize: '13.295px',
                   fontStyle: 'normal',
                   fontWeight: 400,
@@ -152,7 +152,6 @@ const PopularCards  = () => {
                 variant="body2"
                 sx={{
                   color: '#475467',
-                  fontFamily: 'Outfit',
                   fontSize: '13.295px',
                   fontStyle: 'normal',
                   fontWeight: 500,
@@ -168,9 +167,10 @@ const PopularCards  = () => {
               </Typography>
               <Typography
                 variant="body2"
+                className='text-font'
                 sx={{
                   color: 'var(--gray-scale-gray-600, #475467)',
-                  fontFamily: 'Outfit',
+                 
                   fontSize: '19.943px',
                   fontStyle: 'normal',
                   fontWeight: 600,
@@ -212,13 +212,14 @@ const PopularCards  = () => {
               <Typography
                 sx={{
                   color: 'var(--gray-scale-gray-500, #667085)',
-                  fontFamily: 'Outfit',
+                 
                   fontSize: '23.267px',
                   fontStyle: 'normal',
                   fontWeight: 400,
                   lineHeight: 'normal',
                   textDecorationLine: 'line-through',
                 }}
+                className='text-font'
               >
                 £19.00
               </Typography>
